@@ -58,8 +58,11 @@ The analysis explores:
 
 ## Repository Structure
 sql/ SQL analysis queries
+
 dashboard/ Power BI dashboard
+
 report/ Final business report
+
 data/ Dataset information
 
 
