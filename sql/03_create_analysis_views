@@ -1,0 +1,32 @@
+/*
+Create Analysis Views
+
+
+
+Purpose:
+Creates analytical views from the raw base tables to combine, clean and transform the original
+Olist datasets into analysis-ready datasets.
+
+Views created:
+1. review_summary
+   - Creates a cleaned review table containing only
+     the latest review per order.
+
+2. orders_customers_products
+   - Creates a central analytical table combining
+     orders, customers, products and category data.
+
+3. state_summary
+   - Aggregates order volume and revenue by customer
+     state for regional analysis.
+
+4. seller_order_table
+   - Combines seller, order, customer and review data
+     for seller performance analysis.
+
+5. orders_customers
+   - Creates a simplified customer-order table for
+     customer and order-level analysis.
+*/
+
+
