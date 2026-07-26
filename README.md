@@ -51,9 +51,10 @@ The dataset contains over 120,000 records across multiple marketplace processes,
 ## Data Limitations & Analytical Considerations
 
 The following limitations should be considered when interpreting the findings:
-- **Limited historical period:** The analysis focuses on marketplace data from 2016-2018. While this provides insight into early marketplace growth, trends may not represent current customer behaviour or marketplace performance.
+- **Limited historical period:** The analysis focuses on marketplace data from 2016-2018. While this provides insight into early marketplace growth, trends may not fully represent current customer behaviour or marketplace performance.
 - **Incomplete early data:** Transaction activity in 2016 is limited, with only partial monthly records available. These periods were excluded from month-on-month growth calculations to avoid misleading growth rates caused by incomplete data.
 - **Incomplete late-period data:** September and December 2018 contain limited transactional activity compared with other months and were excluded from trend comparisons where appropriate.
+- **Product performance analysis:** Products without categories were excluded from category-level analysis, which may slightly impact category revenue and order concentration calculations.
 - **Delivery performance analysis:** Delivery metrics are based on completed orders with available delivery timestamps. Orders with missing delivery information were excluded from delivery performance calculations.
 - **Customer review analysis:** Review scores represent customers who submitted reviews and may not capture the experience of customers who chose not to leave feedback.
 - **Revenue analysis:** Revenue calculations are based on product price values and do not include additional marketplace costs such as seller fees, logistics costs, marketing expenditure or operational expenses. Therefore, revenue concentration does not directly represent profitability.
