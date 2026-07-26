@@ -2,16 +2,19 @@
 Business Analysis Queries
 
 Purpose:
-Contains SQL queries used to answer key business questions
-and generate insights presented in the Olist marketplace analysis.
+Contains the SQL queries used to answer the business questions
+investigated throughout the Olist Marketplace analysis.
 
-Analysis areas:
-1. Sales trends analysis
-2. Product performance analysis
-3. Regional performance analysis
-4. Seller marketplace health
-5. Delivery performance
-6. Customer experience analysis
+These queries support the findings presented within the Power BI
+dashboard and business report.
+
+Analysis Areas:
+1. Sales Trends
+2. Product Performance
+3. Regional Performance
+4. Seller Marketplace Health
+5. Delivery Performance
+6. Customer Experience
 
 These queries were used to prepare datasets for analysis
 and dashboard visualisations.
@@ -35,13 +38,7 @@ FROM orders
 
     
     
--- What is the total revenue?
--- What is the average order value?
--- How many total products have been ordered?
--- How many distinct products have been ordered?
--- How many unique customers do we have?
--- How many sellers operate on the marketplace?
--- What percentage of orders are successfully delivered?
+-- Overall marketplace KPIs
 SELECT
     SUM(price) AS total_revenue,
     SUM(price)/COUNT(DISTINCT order_id) AS avg_order_value,
@@ -173,7 +170,7 @@ ORDER BY revenue_from_state DESC
 
     
 
--- Which states have the highest AOV per order?
+-- Average order value by state
 SELECT
   customer_state,
   ROUND(revenue_from_state/orders_from_state, 2) AS avg_revenue_per_order,
@@ -250,7 +247,7 @@ LIMIT 10
 
 
 
--- Which sellers have the highest reviews?
+-- Which sellers have the highest average review scores?
 -- Minimum 50 reviews
 
 SELECT
@@ -296,7 +293,7 @@ Purpose:
 Analyse delivery times, delays and operational bottlenecks.
 */
 
--- What is the average delivery time?
+-- -- Average marketplace delivery time
 SELECT
   AVG(DATEDIFF('day', order_purchase_timestamp, order_delivered_customer_date)) AS avg_delivery_time
 FROM orders
@@ -304,7 +301,7 @@ WHERE order_status = 'delivered'
 
     
 
--- Is average delivery time representative of the typical customer experience?
+-- Compare average, median and percentile delivery times
 WITH delivery_times AS (
     
 SELECT
@@ -325,7 +322,7 @@ FROM delivery_times
 
 
 
--- Which orders have the longest delivery times?
+-- Longest customer delivery times
 SELECT
     order_id,
     order_purchase_timestamp,
@@ -416,7 +413,7 @@ Analyse the relationship between delivery performance
 and customer satisfaction.
 */
 
--- What % of all reviews are 1-star?
+-- Marketplace baseline 1-star review rate
 SELECT
     COUNT(DISTINCT order_id) AS total_number_of_reviews,
     (SELECT COUNT(DISTINCT order_id) FROM review_summary WHERE review_score = 1) AS total_number_of_1_star_reviews,
@@ -425,8 +422,8 @@ SELECT
 FROM review_summary
 WHERE review_score IS NOT NULL
 
--- Output: Approx 11.52%, so we can expect 11.52% of late deliveries to have a 1-star review if there is no effect
-
+-- Baseline rate of 1-star reviews across the marketplace.
+-- Used as the expected rate when comparing delayed deliveries.
     
 
 -- What % of 1-star reviews have a late delivery?
@@ -439,3 +436,13 @@ LEFT JOIN orders
     ON orders.order_id = review_summary.order_id
 WHERE review_score = 1
 AND DATE(order_delivered_customer_date) > order_estimated_delivery_date
+
+
+
+/*
+End of Business Analysis Queries
+
+These queries form the analytical foundation for the
+Power BI dashboard and business report included within
+this repository.
+*/
