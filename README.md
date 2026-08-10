@@ -64,7 +64,7 @@ The following limitations should be considered when interpreting the findings:
 ## Executive Summary
 
 
-Between Jannuary 2017 and ugust 2018, Olist experienced significant revenue growth, with revenue increasing by an average of 14.2% month-on-month before stabilising in 2018. The company’s reach also grew, with order volume increasing 15.7% monthly on average. Average order value (AOV) slightly declined, with an average of -0.6% per month, suggesting marketplace growth was driven more by an increase in transaction volume than an increase in spending amount. 
+Between Jannuary 2017 and August 2018, Olist experienced significant revenue growth, with revenue increasing by an average of 14.2% month-on-month before stabilising in 2018. The company’s reach also grew, with order volume increasing 15.7% monthly on average. Average order value (AOV) slightly declined, with an average of -0.6% per month, suggesting marketplace growth was driven more by an increase in transaction volume than an increase in spending amount. 
 
 The following sections explore the key factors driving these trends and identify opportunities for improvement.
 
@@ -102,7 +102,7 @@ Below is the overview page from PowerBI dashboard and more examples are included
 
 - The three states with the largest revenue share are São Paulo, Rio de Janeiro and Minas Gerais, contributing **£5.2M (38.2%), £1.8M (13.4%) and £1.6M (11.7%)** respectively. 
 - States SP, RJ and MG also currently represent the largest share of operational work, generating **41.98%, 12.92% and 11.70% of all marketplace orders** respectively, together contributing a **total of 66.60% of marketplace orders**. Order volume closely mirrors revenue ranking, suggesting differences in revenue are driven primarily by customer demand than significantly higher customer spending. 
-- Paraíba, a state located in the northeast of Brazil, has the highest AOV of the marketplace, with customers spending **£216.67 per order** across a total of 532 orders. This is significantly higher than larger markets such as São Paulo, with an AOV of £125.70 per order. 
+- Paraíba, a state located in the northeast of Brazil, has the highest AOV of the marketplace, with customers spending **£216.67 per order** across a total of 532 orders. This is significantly higher than larger markets such as São Paulo, with an AOV of £125.75 per order. 
 
 
 **Key takeaway:** Demand is heavily concentrated in three states, making operational improvements in these regions likely to have the greatest business impact.
