@@ -140,7 +140,7 @@ Reducing delays on these routes is likely to deliver a greater overall improveme
 ## Seller Marketplace Health
 
 
-- The three largest sellers completed 1,854, 1,806 and 1,706 orders respectively, totalling **5.40% of total orders** on the marketplace, suggesting a marketplace with sales distributed across many sales as opposed to being dominated by a small number of sellers.
+- The three largest sellers completed 1,854, 1,806 and 1,706 orders respectively, totalling **5.40% of total orders** on the marketplace. The ten sellers generating the most orders contribute to **13.97% of total marketplace orders**, suggesting a marketplace with sales distributed across many sales as opposed to being dominated by a small number of sellers.
 - The ten sellers generate the highest revenue to the marketplace together contribute to **13.15% of the overall marketplace revenue**. Revenue is not heavily concentrated among a few sellers, suggesting the marketplace has a relatively balanced revenue distribution and is less vulnerable to losing a single major revenue provider.
 - The **average review score across the marketplace is 4.09/5**. The top 10% of sellers by revenue have an average review score of 4.02/5, which is slightly below the marketplace average
 
