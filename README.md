@@ -59,7 +59,7 @@ The following limitations should be considered when interpreting the findings:
 - **Customer review analysis:** Review scores represent customers who submitted reviews and may not capture the experience of customers who chose not to leave feedback.
 - **Revenue analysis:** Revenue calculations are based on product price values and do not include additional marketplace costs such as seller fees, logistics costs, marketing expenditure or operational expenses. Therefore, revenue concentration does not directly represent profitability.
 
-
+![Executive Summary Dashboard](images/executive-summary.png)
 
 ## Executive Summary
 
