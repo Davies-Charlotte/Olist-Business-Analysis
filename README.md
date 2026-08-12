@@ -68,7 +68,7 @@ Between Jannuary 2017 and August 2018, Olist experienced significant revenue gro
 
 The following sections explore the key factors driving these trends and identify opportunities for improvement.
 
-Below is the overview page from PowerBI dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here
+Below is the overview page from Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here.
 
 
 
