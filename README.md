@@ -31,7 +31,7 @@ This analysis investigates Olist’s 2016-2018 marketplace data to identify key 
 - Customer behaviour analysis
 - Revenue and sales trend analysis
 - Operational performance analysis
-- Power BI dashboard development
+- Tableau dashboard development
 - Data storytelling and recommendations
 
 ## Dataset Structure
