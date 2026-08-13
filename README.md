@@ -63,7 +63,7 @@ The following limitations should be considered when interpreting the findings:
 Below is an overview of the Tableau dashboard, with additional examples included throughout the report. The full interactive dashboard is available on [Tableau Public](https://public.tableau.com/views/OlistBA/EXECUTIVESUMMARY?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 
-![Executive Summary Dashboard](executive-summary.png)
+![Executive Summary Dashboard](dashboards/executive-summary.png)
 
 ## Executive Summary
 
@@ -73,7 +73,7 @@ Between Jannuary 2017 and August 2018, Olist experienced significant revenue gro
 The following sections explore the key factors driving these trends and identify opportunities for improvement.
 
 
-![Sales Trends Dashboard](sales-trends.png)
+![Sales Trends Dashboard](dashboards/sales-trends.png)
 
 ## Sales Trends
 
@@ -88,7 +88,7 @@ The following sections explore the key factors driving these trends and identify
 
 
 
-![Product Performance Dashboard](product-performance.png)
+![Product Performance Dashboard](dashboards/product-performance.png)
 
 ## Product Performance
 
@@ -102,7 +102,7 @@ The following sections explore the key factors driving these trends and identify
 
 
 
-![Regional Comparisons Dashboard](regional-comparisons.png)
+![Regional Comparisons Dashboard](dashboards/regional-comparisons.png)
 
 ## Regional Comparisons
 
@@ -117,7 +117,7 @@ The following sections explore the key factors driving these trends and identify
 
 
 
-![Delivery Performance Dashboard](delivery-performance.png)
+![Delivery Performance Dashboard](dashboards/delivery-performance.png)
 
 ## Delivery Performance
 
@@ -144,7 +144,7 @@ Reducing delays on these routes is likely to deliver a greater overall improveme
 
 
 
-![Seller Marketplace Health Dashboard](seller-marketplace-health.png)
+![Seller Marketplace Health Dashboard](dashboards/seller-marketplace-health.png)
 
 ## Seller Marketplace Health
 
