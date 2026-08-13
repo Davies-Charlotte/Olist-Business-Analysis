@@ -59,6 +59,10 @@ The following limitations should be considered when interpreting the findings:
 - **Customer review analysis:** Review scores represent customers who submitted reviews and may not capture the experience of customers who chose not to leave feedback.
 - **Revenue analysis:** Revenue calculations are based on product price values and do not include additional marketplace costs such as seller fees, logistics costs, marketing expenditure or operational expenses. Therefore, revenue concentration does not directly represent profitability.
 
+
+Below is an overview of the Tableau dashboard, with additional examples included throughout the report. The full interactive dashboard is available on [Tableau Public](https://public.tableau.com/views/OlistBA/EXECUTIVESUMMARY?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+
+
 ![Executive Summary Dashboard](executive-summary.png)
 
 ## Executive Summary
@@ -67,8 +71,6 @@ The following limitations should be considered when interpreting the findings:
 Between Jannuary 2017 and August 2018, Olist experienced significant revenue growth, with revenue increasing by an average of 14.2% month-on-month before stabilising in 2018. The company’s reach also grew, with order volume increasing 15.7% monthly on average. Average order value (AOV) slightly declined, with an average of -0.6% per month, suggesting marketplace growth was driven more by an increase in transaction volume than an increase in spending amount. 
 
 The following sections explore the key factors driving these trends and identify opportunities for improvement.
-
-Below is the overview page from Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here.
 
 
 ![Sales Trends Dashboard](sales-trends.png)
