@@ -71,6 +71,7 @@ The following sections explore the key factors driving these trends and identify
 Below is the overview page from Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be found here.
 
 
+![Sales Trends Dashboard](sales-trends.png)
 
 ## Sales Trends
 
@@ -85,6 +86,7 @@ Below is the overview page from Tableau dashboard and more examples are included
 
 
 
+![Product Performance Dashboard](product-performance.png)
 
 ## Product Performance
 
@@ -97,6 +99,8 @@ Below is the overview page from Tableau dashboard and more examples are included
 **Key takeaway:** Revenue is concentrated among a relatively small number of product categories, creating clear priorities for inventory and marketing investment.
 
 
+
+![Regional Comparisons Dashboard](regional-comparisons.png)
 
 ## Regional Comparisons
 
@@ -111,6 +115,7 @@ Below is the overview page from Tableau dashboard and more examples are included
 
 
 
+![Delivery Performance Dashboard](delivery-performance.png)
 
 ## Delivery Performance
 
@@ -136,6 +141,8 @@ Reducing delays on these routes is likely to deliver a greater overall improveme
 **Key takeaway:** Delivery reliability has a substantial influence on customer satisfaction, with delayed orders being far more likely to receive 1-star reviews.
 
 
+
+![Seller Marketplace Health Dashboard](seller-marketplace-health.png)
 
 ## Seller Marketplace Health
 
