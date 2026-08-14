@@ -166,20 +166,20 @@ Based on the analysis, five key opportunities were identified:
 
 **1. Optimise high-volume delivery routes**
 
-Prioritise logistics improvements across São Paulo, Rio de Janeiro and Minas Gerais, where 66.6% of marketplace orders are generated. Reducing delays in these regions would create the largest customer impact.
+Prioritise logistics improvements across São Paulo, Rio de Janeiro and Minas Gerais, where 66.6% of marketplace orders are generated. Focusing first on reducing delays in high-volume routes, such as SP-SP and SP-RJ, would maximise the customer impact of operational improvements.
 
 **2. Improve delivery reliability**
 
-Delayed deliveries are strongly associated with lower customer satisfaction, with delayed orders receiving an average review score of 2.27/5 compared with 4.29/5 for early deliveries. Improving delivery performance should be a priority for customer satisfaction and marketplace experience.
+Improving delivery performance should be a priority for customer satisfaction and marketplace experience: Delayed deliveries are strongly associated with lower customer satisfaction, with delayed orders receiving an average review score of 2.27/5 compared with 4.29/5 for early deliveries. Identify whether delays originate from seller processing, transportation or unrealistic delivery estimates before targeting operational improvements.
 
 **3. Invest in high-performing product categories**
 
-Focus inventory, seller acquisition and marketing resources on the top-performing categories, which contribute over 60% of marketplace revenue.
+Focus inventory, seller acquisition and marketing resources on the top-performing categories, such as  Bed Bath Table, Health Beauty and Sports Leisure, which contribute over 60% of marketplace revenue. Reassess low-performing product categories, such as CDs/DVDs/Musicals, and whether their performance can be improved to provide enough value to justify supporting them. A few small actions to be explored are bundle offers, targeted discounts and flash sales before discontinuing.
 
 **4. Target high-value customer regions**
 
-Analyse high-AOV states such as Paraíba to identify customer segments with higher spending potential and develop targeted marketing strategies.
+Analyse high-AOV states such as Paraíba to identify the products and purchasing behaviours driving higher customer spend, then use these insights to inform targeted customer acquisition and develop targeted marketing strategies.
 
 **5. Support seller performance**
 
-Maintain seller diversification while improving operational performance among high-volume sellers through delivery and customer satisfaction monitoring.
+Maintain seller diversification while monitoring delivery performance and customer satisfaction among high-volume sellers to identify operational performance issues affecting larger numbers of customers.
